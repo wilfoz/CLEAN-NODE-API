@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "keywords": [],
   "author": "",
@@ -25,5 +26,8 @@
     "lint-staged": "^10.0.7",
     "ts-jest": "^25.2.0",
     "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@shelf/jest-mongodb": "^1.1.3"
   }
 }
